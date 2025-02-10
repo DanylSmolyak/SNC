@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagment", "UserManagment\UserManagment.csproj", "{FE21F988-28D7-450A-86B9-81F2F4FE7340}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B023F4BB-E683-4A37-97C0-E2B9FD22F376} = {B023F4BB-E683-4A37-97C0-E2B9FD22F376}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService", "WcfService\WcfService.csproj", "{B023F4BB-E683-4A37-97C0-E2B9FD22F376}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE21F988-28D7-450A-86B9-81F2F4FE7340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE21F988-28D7-450A-86B9-81F2F4FE7340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE21F988-28D7-450A-86B9-81F2F4FE7340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE21F988-28D7-450A-86B9-81F2F4FE7340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B023F4BB-E683-4A37-97C0-E2B9FD22F376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B023F4BB-E683-4A37-97C0-E2B9FD22F376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B023F4BB-E683-4A37-97C0-E2B9FD22F376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B023F4BB-E683-4A37-97C0-E2B9FD22F376}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

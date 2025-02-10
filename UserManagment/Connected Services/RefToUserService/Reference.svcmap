@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="d33f5487-ab61-42d5-9457-7b1ec66d6fe5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings>
+      <NamespaceMapping TargetNamespace="UserManagment.UserService" ClrNamespace="*" />
+    </NamespaceMappings>
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://snc-task:4343/UserService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="UserService3.xsd" MetadataType="Schema" ID="00069f70-470b-42fd-9a16-8de91e19e72c" SourceId="1" SourceUrl="http://snc-task:4343/UserService.svc?xsd=xsd0" />
+    <MetadataFile FileName="UserService4.xsd" MetadataType="Schema" ID="62a6ee2d-bd20-4006-b6f2-4d6b0eea94ae" SourceId="1" SourceUrl="http://snc-task:4343/UserService.svc?xsd=xsd1" />
+    <MetadataFile FileName="UserService1.wsdl" MetadataType="Wsdl" ID="f4a23d05-6f2d-4a5d-affd-da020463b13b" SourceId="1" SourceUrl="http://snc-task:4343/UserService.svc?wsdl" />
+    <MetadataFile FileName="UserService1.disco" MetadataType="Disco" ID="7fb62b88-2a10-4682-9215-bdfe87d99a3d" SourceId="1" SourceUrl="http://snc-task:4343/UserService.svc?disco" />
+    <MetadataFile FileName="UserService5.xsd" MetadataType="Schema" ID="261a81d2-4f8b-4f51-9b8e-be6d26a04628" SourceId="1" SourceUrl="http://snc-task:4343/UserService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration911.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration1.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
